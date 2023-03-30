@@ -203,6 +203,12 @@ a:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.text-center-footer {
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: #000000b8 0 0 10px;
+}
+
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -653,7 +659,15 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
+}
+
+li > a {
+  color: #000000;
+}
+
+.black {
+  color: #000000;
 }
 
 .container {
@@ -697,7 +711,7 @@ p {
   color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -783,7 +797,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #e6733d;
   color: #ffffff !important;
 }
 
