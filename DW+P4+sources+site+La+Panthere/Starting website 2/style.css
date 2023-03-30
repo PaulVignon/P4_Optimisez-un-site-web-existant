@@ -725,6 +725,13 @@ h2 {
   line-height: 1.4em;
 }
 
+.desc {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333 !important;
+}
+
 h3 {
   font-size: 15px;
   text-transform: uppercase;
