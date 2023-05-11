@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -281,6 +281,10 @@ a:hover {
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
+}
+
+div.col-sm-4 > ul > li {
+  margin: 15px 0 15px 0;
 }
 
 .row.row-no-gutters > [class^="col-"],
