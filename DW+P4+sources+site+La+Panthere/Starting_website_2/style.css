@@ -312,13 +312,8 @@ div.col-sm-4 > ul > li {
 }
 
 .navbar-brand img {
-  max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
-}
-
-.navbar-brand img[src$="svg"] {
-  min-width: 100px;
 }
 
 .nav-center .navbar-brand img {
@@ -701,13 +696,14 @@ li > a {
   height: 100px;
 }
 
-.mainLogo {
+.mainLogo,
+.headerLogo {
   height: 50px;
   width: 271px;
 }
 
 p {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -760,7 +756,7 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: #333333;
 }
 
 h4 {
@@ -814,7 +810,7 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff;
 }
 
 .btn-atomic-tangerine {
